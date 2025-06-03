@@ -7,6 +7,11 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 #navContainer {
   display: flex;
   justify-content: flex-end;
@@ -33,36 +38,63 @@ a {
 
 main {
   background-color: aquamarine;
-  width: 95%;
-  height: 100svh;
-  margin: 20px 20px 20px 20px;
+  width: 1450px;
+  height: 300svh;
+  margin: 40px auto;
+}
+
+#containerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #articleOne {
-  background-color: blue;
-  width: 60%;
-  min-height: 35rem;
+  background-color: brown;
+  width: 960px;
+  height: 671px;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  align-content: space-between;
 }
 
-/* Fuck this shit man */
-
 .sectionOne {
-  background-color: hotpink;
+  background-color: green;
 }
 
 #top {
-  min-width: 95%;
-  height: 130px;
-  margin: 13px 13px;
+  width: 859px;
+  height: 156px;
+}
+#bottom {
+  width: 859px;
+  height: 402px;
 }
 
-#bottom {
-  width: 95%;
-  height: 350px;
+#articleTwo {
+  background-color: red;
+  width: 330px;
+  height: 671px;
+  margin-left: auto;
 }
-/* This shit fucking sucks */
+
+#articleThree {
+  width: 1070px;
+  height: 350px;
+  background-color: beige;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.sectionThree {
+  background-color: yellow;
+  width: 462px;
+  height: 113px;
+}
