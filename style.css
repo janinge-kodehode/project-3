@@ -167,6 +167,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30%;
 }
 
 .sectionFive p {
@@ -180,7 +181,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   gap: 60px;
-  position: relative;
+  /* position: relative; */
   top: 270px;
 }
 
@@ -188,6 +189,7 @@ h1 {
   width: 400px;
   height: 400px;
   background-color: #f19c79;
+  
 }
 
 #articleSeven {
@@ -249,7 +251,14 @@ footer {
 }
 
 #berries{
-  position: unset;
+  width: 400px;
+  height: 400px;
+}
+#sosig{
+  width: 400px;
+  height: 400px;
+}
+#leek{
   width: 400px;
   height: 400px;
 }
